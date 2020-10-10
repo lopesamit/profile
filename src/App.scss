@@ -35,6 +35,9 @@ body .container-fluid {
   background-image: linear-gradient(rgb(243, 117, 117), rgb(0, 247, 255));
 
   height: 100%;
+  .landingHeight {
+    height: 100vh;
+  }
   .home, .feedback, .making, .profile{
     background-color: #282c34;
     border-radius: 13px;
@@ -46,3 +49,5 @@ body .container-fluid {
     color : 'red';
   }
 }
+
+

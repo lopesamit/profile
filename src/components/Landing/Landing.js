@@ -64,7 +64,7 @@ class Landing extends Component {
       />
   }
     return (
-      <div className="container-fluid d-flex justify-content-center align-items-center">
+      <div className="container-fluid landingHeight d-flex justify-content-center align-items-center">
         <div className="h-auto w-auto">
           <div className="">
 
