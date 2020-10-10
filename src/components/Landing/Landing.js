@@ -47,7 +47,6 @@ class Landing extends Component {
       else if (component === 'Feedback')
         return {isHiddenFeedback: !previousState.isHiddenFeedback, component: component};
     });
-    console.log(component)
   }
 
   handleComplete(){

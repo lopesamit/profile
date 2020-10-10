@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Landing from './components/Landing/Landing';
 import Home from './components/Home/Home';
@@ -21,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container-fluid">
+        <div className="container-fluid text-center">
           <Route exact path={routes.LANDING} component={Landing}/>
           <Route exact path={routes.HOME} component={Home}/>
           <Route exact path={routes.PROFILE} component={Profile}/>
